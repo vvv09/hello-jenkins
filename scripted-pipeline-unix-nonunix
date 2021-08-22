@@ -1,6 +1,6 @@
 node {
     stage 'Clone the project'
-    git 'https://github.com/vvv09/hello-jenkins.git'
+    git 'https://github.com/vvv09/hello-jenkins'
 
     dir('spring-jenkins-pipeline') {
         stage("Compilation and Analysis") {
